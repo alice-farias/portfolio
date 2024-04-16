@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    justify-content: space-between;
+    background-color: #A6A6A6;
+    padding: 3vw; 
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 2vw;
+    font-family: 'rubik';
+    font-size: 1em;
+    color: #0D0D0D;
+}
+
+a:link {
+    font-weight: 50em;
+}
+
+a:active {
+    font-weight: 400;
+    color: #595959;
+
+}
+
+a:visited {
+    color: #595959;
+    font-style: italic;
+}
+
+a:hover {
+    color: #595959;
+}
+
+.borda {
+    border-bottom: 0.2em solid;
+    margin: 2vw;
+}
+
+h1 {
+    font-family: 'dosis';
+    font-weight: 500;
+    margin-left: 2vw;
+}
+
+p {
+    font-family: 'dosis';
+    margin-left: 2vw;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 3vw;
+   
+}
+
+.icones img {
+    width: 4vw;
+    float: left;
+}
+
+form {
+    background-color: #A6A6A6;
+    margin: 2vw;
+   padding: 2vw;
+}
+
+input {
+    display: inline-block;
+}
+
+label {
+    font-family: 'dosis';
+}
+
+fieldset {
+    font-family: 'dosis';
+}
