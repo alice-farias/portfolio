@@ -89,6 +89,7 @@ p {
     font-family: 'dosis';
     margin-left: 2vw;
     text-align: justify;
+    font-size: 1.2em;
 }
 
 ul li {
@@ -97,17 +98,6 @@ ul li {
    
 }
 
-.icones img {
-    width: 4vw;
-    float: left;
-    display: inline;
-}
-
-form {
-    background-color: #A6A6A6;
-    margin: 2vw;
-   padding: 2vw;
-}
 
 input {
     display: inline-block;
@@ -125,7 +115,8 @@ button {
     height: 3vw;
     width: 10vw;
     text-align: center;
-    border-radius: 1px 1vw;
+    border: 1px #262626 solid;
+    border-radius: 5px;
     background-color: #A6A6A6;
     font-family: 'dosis';
 
@@ -133,33 +124,180 @@ button {
 button a {
     text-decoration: none;
     font-family: 'rubik';
-    font-size: 1em;
+    font-size: 1.2em;
     color: #0D0D0D;
-    border-radius: 20px;
-    width: 100%;
-    left: 0;
 }
 
-
+button:hover {
+    background-color: rgb(79, 180, 238);
+}
 
 figure img {
     width: 20vw;
     float: left;
     margin-right: 5vw;
+    margin-top: 5vw;
 }
 
 footer {
     background-color: #262626;
-    display: flex;
+    text-align: center;
     flex-direction: row;
-    margin-top: 30%;
+    margin-top: 5%;
     padding: 5vw;
+    color: #ccc;
+    font-family: 'dosis';
 }
 
 main {
     margin: 5vw;
+    margin-bottom: 2vw;
 }
 
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilo dos blocos */
+  .block {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Estilo dos títulos dos blocos */
+  .block h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo das listas */
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilo dos itens da lista */
+  .list li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo dos itens ímpares */
+  .list li:nth-child(odd) {
+    background-color: #ddd;
+  }
+  
+  /* Estilo dos itens pares */
+  .list li:nth-child(even) {
+    background-color: #ccc;
+  }
+
+  .list {
+    font-weight: 600;
+    font-family: 'dosis';
+
+  }
+
+  .container img {
+    width: 7vw;
+    float: left;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 2vw;
+  }
+
+.container-index {
+    margin-top: 5vw;
+}
+
+section img {
+    width: 4vw;
+}
+
+section {
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: 'dosis';
+
+}
+
+li { 
+    font-family: 'dosis';
+
+}
+
+section p { 
+    text-align: center;
+    padding-bottom: 1vw;
+}
+
+.artigo {
+    display: inline-block;
+}
+.artigo img {
+    width: 45vw;
+    margin: 0;
+    padding: 0;
+}
+
+.block-article {
+    background-color: #a6a6a667;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .icones img {
+    width: 3.5vw;
+    margin-right: 1vw;
+    float: left;
+  }
+
+.form {
+    max-width: 90%; 
+    margin: 5% auto; 
+    padding: 5%; 
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 1rem; 
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem; 
+    margin-bottom: 1.5rem; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  
+ 
+  
+  
 
 
 
